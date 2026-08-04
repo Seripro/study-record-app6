@@ -11,3 +11,9 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
+model RECORD {
+  id Int @id @default(autoincrement())
+  title String
+  time Int
+}
