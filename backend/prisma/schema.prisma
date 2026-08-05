@@ -7,7 +7,7 @@ datasource db {
   provider = "postgresql"
 }
 
-model RECORD {
+model Record {
   id    Int    @id @default(autoincrement())
   title String
   time  Int
